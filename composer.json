@@ -1,0 +1,20 @@
+{
+    "name": "bengelmedia/bengel-compress",
+    "description": "An image/asset compression plugin for WordPress",
+    "type": "wordpress-plugin",
+    "require": {
+        "intervention/image": "^3.11",
+        "monolog/monolog": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bengelmedia\\BengelCompress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thijmen Rierink",
+            "email": "thijmen@bengelmedia.nl"
+        }
+    ]
+}

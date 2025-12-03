@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.wrapper {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+select {
+    @apply block w-full pl-3 pr-10 py-2 text-base bg-gray-100 border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md;
+}

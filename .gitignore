@@ -1,0 +1,9 @@
+.idea
+
+vendor
+deps
+
+frontend/package-lock.json
+
+*.log
+tmp-*
